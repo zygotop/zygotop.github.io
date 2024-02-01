@@ -14,7 +14,7 @@ a:hover { color: #9165b0; }
 sub {  font-size: .8em; line-height: 0; }
 sup {  font-size: .8em;  vertical-align: super;    line-height: 0; }
 
-h2,h3,h4 { font-weight: normal; }
+h2, h3, h4 { font-weight: normal; }
 
 
 #header {
@@ -33,11 +33,11 @@ h2,h3,h4 { font-weight: normal; }
     /* background-color: rgb(180, 180, 180); */
     /* border-left-style:solid;
     border-left-width: 40px;
-    border-left-color:rgb(00,255,00);*/
+    border-left-color:rgb(0, 255, 0);*/
     width: 570px;
 }
 
-#content>h1 {
+#content > h1 {
     text-align: center;
     font-size: 18px;
     margin-bottom: 10px;
@@ -78,9 +78,9 @@ p { margin-bottom: 10px; }
     margin-top: -4px;
     padding: 5px;
     width: 60px;
-    border: 2px solid rgb(0,0,0);
+    border: 2px solid black;
     background: #62986f;
-    color: rgb(0,0,0);
+    color: black;
     text-align: center;
     font-size: 14px;
     -moz-border-radius: 5px;
@@ -91,7 +91,7 @@ p { margin-bottom: 10px; }
 .meta .date b {
     display: block;
     font-weight: normal;
-    color: rgb(0, 0, 0);
+    color: black;
     font-size: 16px;
     line-height: 22px;
 }
@@ -101,9 +101,9 @@ p { margin-bottom: 10px; }
     margin-top: -4px;
     padding: 5px;
     width: 60px;
-    border: 2px solid rgb(0,0,0);
-    background: rgb(240, 20,20);
-    color: rgb(0,0,0);
+    border: 2px solid black;
+    background: rgb(240, 20, 20);
+    color: black;
     text-align: center;
     font-size: 14px;
     -moz-border-radius: 5px;
@@ -113,7 +113,7 @@ p { margin-bottom: 10px; }
 .meta .datenow b {
     display: block;
     font-weight: normal;
-    color: rgb(0, 0, 0);
+    color: black;
     font-size: 16px;
     line-height: 22px;
 }
@@ -123,9 +123,9 @@ p { margin-bottom: 10px; }
     margin-top: -4px;
     padding: 5px;
     width: 60px;
-    border: 2px solid rgb(0,0,0);
-    background: rgb(0, 255,255);
-    color: rgb(0,0,0);
+    border: 2px solid black;
+    background: aqua;
+    color: black;
     text-align: center;
     font-size: 14px;
     -moz-border-radius: 5px;
@@ -135,7 +135,7 @@ p { margin-bottom: 10px; }
 .meta .datemon b {
     display: block;
     font-weight: normal;
-    color: rgb(0, 0, 0);
+    color: black;
     font-size: 16px;
     line-height: 22px;
 }
@@ -145,9 +145,9 @@ p { margin-bottom: 10px; }
     margin-top: -4px;
     padding: 5px;
     width: 60px;
-    border: 2px solid rgb(248,142,30);
-    background: rgb(0,0,0);
-    color: rgb(248,142,30);
+    border: 2px solid rgb(248, 142, 30);
+    background: black;
+    color: rgb(248, 142, 30);
     text-align: center;
     font-size: 14px;
     -moz-border-radius: 5px;
@@ -157,7 +157,7 @@ p { margin-bottom: 10px; }
 .meta .datenext b {
     display: block;
     font-weight: normal;
-    color: rgb(248,142,30);
+    color: rgb(248, 142, 30);
     font-size: 16px;
     line-height: 22px;
 }
@@ -180,8 +180,8 @@ p { margin-bottom: 10px; }
 .meta .poster a:hover { background-image: url(img/pdf.gif); }
 
 
-#talks { margin-top: 35px; }
-#talks>li {
+.talks { margin-top: 35px; }
+.talks > li {
     margin-bottom: 45px;
     line-height: 20px;
     min-height: 55px;
